@@ -20,7 +20,7 @@ public class AwsController {
         return ResponseEntity.ok("Name :" + name);
     }
 
-    @GetMapping("/dog/color")
+    @GetMapping("/color/color")
     public ResponseEntity<?> dogTest() {
         LOG.info("Welcome back");
         return ResponseEntity.ok("Welcome back");
